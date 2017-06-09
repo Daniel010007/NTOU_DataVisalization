@@ -1,0 +1,2 @@
+# NTOU_DataVisalization
+Departments &amp; Students Distribution of National Taiwan Ocean University. This project is built with D3’s Sankey plugin. The plugin takes as input the nodes and weighted links, computing positions via iterative relaxation. After fixing the horizontal position of each node, the algorithm starts from the sources on the left, positioning downstream nodes so as to minimize link distance. A reverse pass is then made from right-to-left, and then the entire process is repeated several times. Overlapping nodes are shifted to avoid collision.
